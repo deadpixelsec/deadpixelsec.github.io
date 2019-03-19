@@ -10,12 +10,6 @@ Dead Pixel Security started as a CTF (Capture the Flag) team on The Blind Hacker
 
 We are a group of Infosec enthusiasts who have a passion for learning and helping others as well as getting into mischief.  Several members of our group stream on podcasts or twitch as well.  Be sure to look us up! 
 
-# Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
 ### Contact us
 
 [deadpixelsec@pm.me](mailto:deadpixelsec@pm.me)
