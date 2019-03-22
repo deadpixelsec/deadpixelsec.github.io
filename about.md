@@ -1,14 +1,13 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-Dead Pixel Sec / Dead Pixel Security Started in March 2019. It is a commodity that has developed around the InfoSec streamer The Blind Hacker but became more than about just about his journey and streaming, it became about community and the other individuals. It stands for mentoring, learning, and the support to be ones best.
+Dead Pixel Sec was started in March 2019 as a community that developed around The Blind Hacker and his journey as a visually impaired infosec professional. Dead Pixel Sec began as a CTF (Capture the Flag) team on discord that has grown into a full collaborative community that, at its core, about sharing experiences, knowledge, and resources to help everyone learn and be the best they can be. 
 
-Dead Pixel Security started as a CTF (Capture the Flag) team on The Blind Hacker's discord server.  Overtime the server grew and The Blind Hacker graciously renamed the server "DeadPixelSec" and the focus shifted to the community as a whole.  
+Members range in experience from beginner to professional and bring a bredth of knowledge whether it is from a hobbyist perspective, development, red team, system administration, or even project management.
 
-We are a group of Infosec enthusiasts who have a passion for learning and helping others as well as getting into mischief.  Several members of our group stream on podcasts or twitch as well.  Be sure to look us up! 
+We are a group of Infosec enthusiasts who have a passion for learning and helping others as well as getting into mischief.  Several members of our group stream on podcasts or twitch as well.  Be sure to look us up!
 
 ### Contact us
 

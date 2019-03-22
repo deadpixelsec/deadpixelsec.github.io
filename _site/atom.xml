@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Dead Pixel Sec</title>
+ <link href="/atom.xml" rel="self"/>
+ <id>/</id>
+ <updated>2019-03-21T19:58:55-04:00</updated>
+ <author>
+   <name>TheBlindHacker</name>
+   <uri>www.deadpixelsec.com</uri>
+   <email>deadpixelsec@pm.me</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>NVIDIA Jetson Nano</title>
+   <link href="/Nvidia-Jetson-Nano"/>
+   <id>/Nvidia-Jetson-Nano</id>
+   <updated>2019-03-21T00:00:00-04:00</updated>
+   <content type="html">&lt;p&gt;The new single board computer (sbc) from Nvidia looks to be a promising new addition to hobbyists, hackers, and IoT developers alike! The specifications for the device were initially a bit of a mixed bag as the announcement said one thing, the website said another, and the engineers on developer...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Yet Another Sample Page</title>
+   <link href="/Yet-Another-Sample-Page"/>
+   <id>/Yet-Another-Sample-Page</id>
+   <updated>2018-01-06T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, &lt;del&gt;strikethrough&lt;/del&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;keyword&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;another-page&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt; &lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt; &lt;h1 id=&quot;header-1&quot;&gt;&lt;a href=&quot;#header-1&quot;&gt;&lt;/a&gt;Header 1&lt;/h1&gt; &lt;p&gt;This is a normal paragraph following a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Sample Page</title>
+   <link href="/Sample-Page"/>
+   <id>/Sample-Page</id>
+   <updated>2017-12-12T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, &lt;del&gt;strikethrough&lt;/del&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;keyword&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;another-page&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt; &lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt; &lt;h1 id=&quot;header-1&quot;&gt;&lt;a href=&quot;#header-1&quot;&gt;&lt;/a&gt;Header 1&lt;/h1&gt; &lt;p&gt;This is a normal paragraph following a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>One More Sample Page</title>
+   <link href="/One-More-Sample-Page"/>
+   <id>/One-More-Sample-Page</id>
+   <updated>2017-12-11T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, &lt;del&gt;strikethrough&lt;/del&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;keyword&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;another-page&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt; &lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt; &lt;h1 id=&quot;header-1&quot;&gt;&lt;a href=&quot;#header-1&quot;&gt;&lt;/a&gt;Header 1&lt;/h1&gt; &lt;p&gt;This is a normal paragraph following a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Another Sample Page</title>
+   <link href="/Another-Sample-Page"/>
+   <id>/Another-Sample-Page</id>
+   <updated>2017-12-10T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, &lt;del&gt;strikethrough&lt;/del&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;keyword&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;another-page&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt; &lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt; &lt;h1 id=&quot;header-1&quot;&gt;&lt;a href=&quot;#header-1&quot;&gt;&lt;/a&gt;Header 1&lt;/h1&gt; &lt;p&gt;This is a normal paragraph following a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Welcome Dead Pixel Sec</title>
+   <link href="/Hello-World"/>
+   <id>/Hello-World</id>
+   <updated>2014-03-03T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;Welcome to the internet Dead Pixel Sec!&lt;/p&gt;
+</content>
+ </entry>
+
+ 
+
+</feed>
