@@ -2,6 +2,8 @@
 layout: post
 title: NVIDIA Jetson Nano
 ---
+[@b34rd_tek](https://twitter.com/b34rd_tek)
+
 The new single board computer (sbc) from Nvidia looks to be a promising new addition to hobbyists, hackers, and IoT developers alike! The specifications for the device were initially a bit of a mixed bag as the announcement said one thing, the website said another, and the engineers on developer forums had a different list. 
 
 Here's the fully up-to-date details:
