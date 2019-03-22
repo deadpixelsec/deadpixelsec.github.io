@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Dead Pixel Sec was started in March 2019 as a community that developed around The Blind Hacker and his journey as a visually impaired infosec professional. Dead Pixel Sec began as a CTF (Capture the Flag) team on discord that has grown into a full collaborative community that, at its core, about sharing experiences, knowledge, and resources to help everyone learn and be the best they can be. 
