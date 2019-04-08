@@ -21,7 +21,7 @@ Our journey will start with a Nmap scan on the target to determine what services
 $ nmap -sC -sV -v -oN <PATH_TO_OUTPUT> <IP>
 ```
 
-![nmap]({{ site.baseurl }}/images/vulnhub/dc-1/nmap.png)
+![nmap]({{ site.baseurl }}/images/dc-1-vulnhub/nmap.png)
 
 We can see that Nmap has found 3 ports open:
 
@@ -31,9 +31,9 @@ We can see that Nmap has found 3 ports open:
 
 We can also see that Nmap has found some default folders and files that can be found with an installation of Drupal CMS. We can check for 'robots.txt'. We find the file "CHANGELOG.txt" which is placed in the root directory of the webserver, however, we get that the file was not found.
 
-![robots.txt]({{ site.baseurl }}/images/vulnhub/dc-1/robots-txt.png)
+![robots.txt]({{ site.baseurl }}/images/dc-1-vulnhub/robots-txt.png)
 
-![changelog]({{ site.baseurl }}/images/vulnhub/dc-1/changelog-nonexisting.png)
+![changelog]({{ site.baseurl }}/images/dc-1-vulnhub/changelog-nonexisting.png)
 
 Luckily, there is a tool called 'droopescan', it will enumerate the webserver and the installation of the Drupal CMS and it will find any misconfigurations and possible vulnerabilities that we can exploit.
 
@@ -54,7 +54,7 @@ That will install the tool and we are ready to use it. Now let's enumerate the m
 
 ```droopescan scan drupal -u <IP_OF_TARGET> -t 10```
 
-![droopescan]({{ site.baseurl }}/images/vulnhub/dc-1/droopescan.png)
+![droopescan]({{ site.baseurl }}/images/dc-1-vulnhub/droopescan.png)
 
 By the output of droopescan, we can determine that the version of the installed Drupal CMS is one between 7.22 - 7.26. If we search for vulnerabilities that were found in any version between these that the tool found, we can test that against the target. Although, this is not a good practice to test random exploits on a system that we don't know the exact version of, it is our only option.
 
@@ -66,9 +66,9 @@ Exploit link -> [Drupalgeddon2](https://github.com/lorddemon/drupalgeddon2)
 
 ## ~#Pr1vil3ge 3scal4tion
 
-![drupalgeddon]({{ site.baseurl }}/images/vulnhub/dc-1/drupalgeddon.png)
+![drupalgeddon]({{ site.baseurl }}/images/dc-1-vulnhub/drupalgeddon.png)
 
-![revshell]({{ site.baseurl }}/images/vulnhub/dc-1/revshell.png)
+![revshell]({{ site.baseurl }}/images/dc-1-vulnhub/revshell.png)
 
 After getting the reverse shell, we want to get a python tty shell and make the arrow keys and tab completion work.
 For this to work we background the netcat reverse shell and type:
@@ -87,7 +87,7 @@ $ export TERM=xterm
 
 As we now have a shell in the system, it is time to enumerate it. Checking the usual locations where something could be found misconfigured, such as /usr/bin, /bin/, /etc/ssh/ and others, we can find that in /usr/bin/, the program 'find' has a SUID set.
 
-![find-suid]({{ site.baseurl }}/images/vulnhub/dc-1/find-proof.png)
+![find-suid]({{ site.baseurl }}/images/dc-1-vulnhub/find-proof.png)
 
 We can use this to exploit the system and get root! Going to [GTFObins](https://gtfobins.github.io/gtfobins/find/#shell), we search for "find" tool and use the command shown to execute a system shell and get root.
 
@@ -97,6 +97,6 @@ $ find . -exec /bin/sh \; -quit
 
 For a detailed explanation of the command you can go to [explainshell.com](https://explainshell.com/explain?cmd=find+.+-exec+%2Fbin%2Fsh+%5C%3B+-quit)
 
-![root]({{ site.baseurl }}/images/vulnhub/dc-1/root-taken.png)
+![root]({{ site.baseurl }}/images/dc-1-vulnhub/root-taken.png)
 
 We now have an effective user ID of root and got the flag! The box is completed!
