@@ -10,7 +10,7 @@ title: Quick trip to root! DC-1 (Vulnhub)
 
 This is a writeup of the [DC-1 VulnHub](https://www.vulnhub.com/series/dc-1,199/) box. The vulnerability was that there was installed an outdated version of [Drupal CMS](https://unit42.paloaltonetworks.com/unit42-exploit-wild-drupalgeddon2-analysis-cve-2018-7600/) which lead to the exploitation of the webserver and getting a shell as 'www-data'. After that, a short digging in the system has showed that "find" program in Linux has a SUID which allowed the attacker to privilige escalate to root user.
 
-Although this is an easy box, there was a rabbit hole that some people might have felt in. This rabbit hole was the kernel version of the system (3.2.0-6-428). Some people may have thought that [DirtyCow](https://github.com/dirtycow/dirtycow.github.io/wiki/VulnerabilityDetails) exploit would work, but DirtyCow is not always a good idea to run, due to possible crashes of the system that it can cause. Even if DirtyCow would've worked, it should be the last option for privilige escalation.
+Although this is an easy box, there was a rabbit hole that some people might have felt in. This rabbit hole was the kernel version of the system (3.2.0-6-428). Some people may have thought that [DirtyCow](https://dirtycow.ninja/) exploit would work, but DirtyCow is not always a good idea to run, due to possible crashes of the system that it can cause. Even if DirtyCow would've worked, it should be the last option for privilige escalation.
 
 Official CVE page of the Drupal exploit can be found [here](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7600)
 
