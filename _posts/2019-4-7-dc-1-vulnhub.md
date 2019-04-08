@@ -2,7 +2,7 @@
 layout: post
 title: Quick trip to root! DC-1 (Vulnhub)
 ---
-<img src="https://www.hackthebox.eu/badge/image/45668" alt="Hack The Box">
+<img src="https://www.hackthebox.eu/badge/image/45668" alt="Hack The Box"><br>
 
 [@Kr0ff](https://twitter.com/CptXrat)
 
