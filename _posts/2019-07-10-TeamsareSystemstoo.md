@@ -3,8 +3,6 @@ layout: post
 title: Teams are Systems too! A systems perspective on teamwork and leadership.
 ---
 
-10 July 2019
-
 [@CharCharBonkles](https://twitter.com/CharCharBonkles)
 
 *Author's Note: Sources are linked inline, and books I reference are linked to Amazon.*
