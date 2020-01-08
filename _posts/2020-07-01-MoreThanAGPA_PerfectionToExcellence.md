@@ -1,6 +1,6 @@
 ---
 layout: post
-title: More than a GPA: A journey from perfectionism to excellence.
+title: More than a GPA - A journey from perfectionism to excellence.
 ---
 
 [@CharCharBonkles](https://twitter.com/CharCharBonkles)
