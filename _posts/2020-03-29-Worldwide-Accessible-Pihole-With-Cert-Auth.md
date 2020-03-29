@@ -112,7 +112,7 @@ To begin we need to install squid and all the parts of it we will be using later
 Since we have Pi-Hole installed we don’t need to worry about a static ip address. If you are only here for squid, well, USE STATIC IP!
 
 ```
-$ sudo apt-get -y install squid squid-cgi calamari squidclient
+$ sudo apt-get -y install squid squid-cgi calamaris squidclient
 ```
 
 This will require some additional packages but they will be installed with these.
