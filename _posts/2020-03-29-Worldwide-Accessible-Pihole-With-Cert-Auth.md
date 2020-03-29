@@ -172,7 +172,7 @@ The login will be username and password of your pi. By default this is pi:raspbe
 
 Next we need to go to the left and find squid under unused modules section. In here we need to adjust the paths to everything and adjust the startup, stop, and restart script sections.
 
-![alt text](https://miro.medium.com/max/1400/1*Uj85QkRucFxt7k_W5u3PRw.png "Squid Config")
+![alt text](https://miro.medium.com/max/1352/0*wpLGTjxNhDKryMUL "Squid Config")
 
 
 The highlighted sections you will need to make match your install. For my install I had to change all from squid3 to squid and the scripts all to the corresponding systemctl ones. For example:
