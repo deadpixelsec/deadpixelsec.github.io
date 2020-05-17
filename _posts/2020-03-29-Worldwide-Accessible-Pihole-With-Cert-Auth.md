@@ -97,6 +97,26 @@ We need to change line 10 to match the following
 $serverName = htmlspecialchars($_SERVER["SERVER_ADDR"]);
 ```
 
+We also need to edit auth.php
+
+```
+$ sudo vi /var/www/html/admin/scripts/pi-hole/auth.php
+```
+
+Under the following section you MAY need to add your FQDN to ensure all configuration changes, logins, etc through the proxy function. You can test as needed.
+
+```
+$AUTHORIZED_HOSTNAMES = array(
+        $ipv4,
+        $ipv6,
+        str_replace(array("[","]"), array("",""), $_SERVER["SERVER_NAME"]),
+        "pi.hole",
+        "localhost"
+    );
+```
+
+For me, I needed to ensure localhost was listed since we are using localhost to access the server through the proxy.
+
 We are now able to access the dashboard through a proxy. If this is all you want to implement, skip ahead to the Google Cloud configuration and the AutoSSH configuration. For now, I’m going ahead into squid and webmin.
 
 ----
