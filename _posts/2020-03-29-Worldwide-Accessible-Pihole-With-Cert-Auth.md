@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Worldwide Accessible Pi With Cert Based Auth!
+title: Worldwide Accessible Pi-Hole With Cert Based Auth!
 ---
 
 [@b34rd_tek](https://twitter.com/b34rd_tek)
