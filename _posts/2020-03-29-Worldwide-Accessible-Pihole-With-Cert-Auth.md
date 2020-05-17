@@ -100,7 +100,7 @@ $serverName = htmlspecialchars($_SERVER["SERVER_ADDR"]);
 We also need to edit auth.php
 
 ```
-$ sudo vi /var/www/html/admin/scripts/pi-hole/auth.php
+$ sudo vi /var/www/html/admin/scripts/pi-hole/php/auth.php
 ```
 
 Under the following section you MAY need to add your FQDN to ensure all configuration changes, logins, etc through the proxy function. You can test as needed.
