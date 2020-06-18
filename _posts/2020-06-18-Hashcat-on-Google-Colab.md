@@ -76,7 +76,7 @@ From here we can do a number of things. We can benchmark hashcat, we can mount o
 First, let's run a benchmark of NTLM and see what we've got going on here:
 
 ```
-! ! hashcat --benchmark -m 1000 -O
+! hashcat --benchmark -m 1000 -O
 ```
 
 ![alt text](https://b34rd.tech/assets/static/6.c484d7f.16bc51534d0bbd5f2ca7e811af5e68da.png "NTLM Results")
