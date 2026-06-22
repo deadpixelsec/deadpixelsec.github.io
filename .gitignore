@@ -8,3 +8,123 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+
+# --- Added Security Hardening ---
+# ─── Secrets & Credentials ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+secrets/
+secret/
+creds/
+credentials/
+private/
+*.secret
+*.secrets
+vault/
+
+# ─── API & Auth Tokens ────────────────────────────────────────────────────────
+*.token
+auth.json
+token.json
+service-account.json
+gcp-key*.json
+*-service-account.json
+.netrc
+
+# ─── Packer / Vagrant / Infra ─────────────────────────────────────────────────
+*.auto.pkrvars.hcl
+*.pkrvars.hcl
+!*.pkrvars.hcl.example
+.vagrant/
+*.ova
+*.vmdk
+*.ovf
+*.box
+packer_cache/
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+pip-log.txt
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Node / JavaScript ────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/
+
+# ─── Go ───────────────────────────────────────────────────────────────────────
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# ─── Compiled / Binary ────────────────────────────────────────────────────────
+*.o
+*.a
+*.lib
+*.class
+*.jar
+
+# ─── OS / Editor Junk ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── Logs & Reports ───────────────────────────────────────────────────────────
+*.log
+logs/
+reports/
+*.report
+swarm_report.json
+scan_results.*
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+*.sqlite
+*.sqlite3
+*.db
+dump.sql
+*.dump
+
+# ─── Temporary / Local ────────────────────────────────────────────────────────
+tmp/
+temp/
+.cache/
+local/
+*.local
+*.bak
+*.orig
+
